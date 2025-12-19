@@ -1,9 +1,10 @@
-package com.codingshuttle.anuj.prod_ready_features.services;
+package com.codingshuttle.Aryan.prod_ready_features.services;
 
-import com.codingshuttle.anuj.prod_ready_features.dto.PostDTO;
-import com.codingshuttle.anuj.prod_ready_features.entities.PostEntity;
-import com.codingshuttle.anuj.prod_ready_features.exceptions.ResourceNotFoundException;
-import com.codingshuttle.anuj.prod_ready_features.repositories.PostRepository;
+import com.codingshuttle.Aryan.prod_ready_features.client.UserClient;
+import com.codingshuttle.Aryan.prod_ready_features.dto.PostDTO;
+import com.codingshuttle.Aryan.prod_ready_features.repositories.PostRepository;
+import com.codingshuttle.Aryan.prod_ready_features.entities.PostEntity;
+import com.codingshuttle.Aryan.prod_ready_features.exceptions.ResourceNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
@@ -16,6 +17,12 @@ public class PostServiceImpl implements PostService{
 
     private final PostRepository postRepository;
     private final ModelMapper modelMapper;
+    private final UserClient userClient;
+
+
+    public String getUserDetails(Long orderId) {
+        return userClient.getUserById(orderId);
+    }
 
     @Override
     public List<PostDTO> getAllPosts() {
@@ -39,4 +46,6 @@ public class PostServiceImpl implements PostService{
                 .orElseThrow(() -> new ResourceNotFoundException("Post not found with id "+postId));
         return modelMapper.map(postEntity, PostDTO.class);
     }
+
+
 }

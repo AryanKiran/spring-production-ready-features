@@ -1,4 +1,4 @@
-package com.codingshuttle.anuj.prod_ready_features.exceptions;
+package com.codingshuttle.Aryan.prod_ready_features.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException{
 

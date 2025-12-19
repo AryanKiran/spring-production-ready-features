@@ -1,4 +1,4 @@
-package com.codingshuttle.anuj.prod_ready_features;
+package com.codingshuttle.Aryan.prod_ready_features;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

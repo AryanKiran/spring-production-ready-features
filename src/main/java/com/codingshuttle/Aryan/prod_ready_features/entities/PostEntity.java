@@ -1,8 +1,7 @@
-package com.codingshuttle.anuj.prod_ready_features.entities;
+package com.codingshuttle.Aryan.prod_ready_features.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
-
 
 @Entity
 @Table(name = "posts")

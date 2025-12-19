@@ -1,6 +1,6 @@
-package com.codingshuttle.anuj.prod_ready_features.config;
+package com.codingshuttle.Aryan.prod_ready_features.config;
 
-import com.codingshuttle.anuj.prod_ready_features.Auth.AuditorAwareImpl;
+import com.codingshuttle.Aryan.prod_ready_features.Auth.AuditorAwareImpl;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,8 +17,9 @@ public class AppConfig {
     }
 
     @Bean
-    AuditorAware<String> getAuditorAwareImpl(){
+    AuditorAware<String> getAuditorAwareImpl() {
         return new AuditorAwareImpl();
     }
+
 
 }

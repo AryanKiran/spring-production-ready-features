@@ -1,7 +1,7 @@
 2025-12-18 10:11:43 INFO  c.c.a.p.p.ProdReadyFeaturesApplication - Starting ProdReadyFeaturesApplication using Java 22.0.2 with PID 12452 (C:\Users\ARYAN KIRAN\OneDrive\Desktop\Anuj Bhaiya Course\week4\prod_ready_features_12569a7ca6\prod-ready-features\target\classes started by ARYAN KIRAN in C:\Users\ARYAN KIRAN\OneDrive\Desktop\Anuj Bhaiya Course\week4\prod_ready_features_12569a7ca6\prod-ready-features)
 2025-12-18 10:11:43 DEBUG c.c.a.p.p.ProdReadyFeaturesApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
 2025-12-18 10:11:43 INFO  c.c.a.p.p.ProdReadyFeaturesApplication - No active profile set, falling back to 1 default profile: "default"
-2025-12-18 10:11:43 DEBUG o.s.b.SpringApplication - Loading source class com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication
+2025-12-18 10:11:43 DEBUG o.s.b.SpringApplication - Loading source class com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication
 2025-12-18 10:11:44 DEBUG o.s.b.d.r.ChangeableUrls - Matching URLs for reloading : [file:/C:/Users/ARYAN%20KIRAN/OneDrive/Desktop/Anuj%20Bhaiya%20Course/week4/prod_ready_features_12569a7ca6/prod-ready-features/target/classes/]
 2025-12-18 10:11:44 DEBUG o.s.b.d.s.DevToolsSettings - Included patterns for restart : []
 2025-12-18 10:11:44 DEBUG o.s.b.d.s.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
@@ -417,7 +417,7 @@ java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
+	at com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
@@ -473,7 +473,7 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
+	at com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
@@ -483,7 +483,7 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 2025-12-18 10:11:52 INFO  o.a.c.c.StandardService - Stopping service [Tomcat]
 2025-12-18 10:11:52 DEBUG o.s.b.d.r.Restarter - Creating new Restarter for thread Thread[#1,main,5,main]
 2025-12-18 10:11:52 DEBUG o.s.b.d.r.Restarter - Immediately restarting application
-2025-12-18 10:11:52 DEBUG o.s.b.d.r.Restarter - Starting application com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication with URLs [file:/C:/Users/ARYAN%20KIRAN/OneDrive/Desktop/Anuj%20Bhaiya%20Course/week4/prod_ready_features_12569a7ca6/prod-ready-features/target/classes/]
+2025-12-18 10:11:52 DEBUG o.s.b.d.r.Restarter - Starting application com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication with URLs [file:/C:/Users/ARYAN%20KIRAN/OneDrive/Desktop/Anuj%20Bhaiya%20Course/week4/prod_ready_features_12569a7ca6/prod-ready-features/target/classes/]
 2025-12-18 10:11:53 DEBUG o.s.b.a.l.ConditionEvaluationReportLogger - 
 
 
@@ -1645,7 +1645,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
+	at com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
@@ -1680,7 +1680,7 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 2025-12-18 10:13:53 INFO  c.c.a.p.p.ProdReadyFeaturesApplication - Starting ProdReadyFeaturesApplication using Java 22.0.2 with PID 1756 (C:\Users\ARYAN KIRAN\OneDrive\Desktop\Anuj Bhaiya Course\week4\prod_ready_features_12569a7ca6\prod-ready-features\target\classes started by ARYAN KIRAN in C:\Users\ARYAN KIRAN\OneDrive\Desktop\Anuj Bhaiya Course\week4\prod_ready_features_12569a7ca6\prod-ready-features)
 2025-12-18 10:13:53 DEBUG c.c.a.p.p.ProdReadyFeaturesApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
 2025-12-18 10:13:53 INFO  c.c.a.p.p.ProdReadyFeaturesApplication - No active profile set, falling back to 1 default profile: "default"
-2025-12-18 10:13:53 DEBUG o.s.b.SpringApplication - Loading source class com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication
+2025-12-18 10:13:53 DEBUG o.s.b.SpringApplication - Loading source class com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication
 2025-12-18 10:13:53 DEBUG o.s.b.d.r.ChangeableUrls - Matching URLs for reloading : [file:/C:/Users/ARYAN%20KIRAN/OneDrive/Desktop/Anuj%20Bhaiya%20Course/week4/prod_ready_features_12569a7ca6/prod-ready-features/target/classes/]
 2025-12-18 10:13:53 DEBUG o.s.b.d.s.DevToolsSettings - Included patterns for restart : []
 2025-12-18 10:13:53 DEBUG o.s.b.d.s.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
@@ -2096,7 +2096,7 @@ java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
+	at com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
@@ -2152,7 +2152,7 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
+	at com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
@@ -2162,7 +2162,7 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 2025-12-18 10:14:00 INFO  o.a.c.c.StandardService - Stopping service [Tomcat]
 2025-12-18 10:14:00 DEBUG o.s.b.d.r.Restarter - Creating new Restarter for thread Thread[#1,main,5,main]
 2025-12-18 10:14:00 DEBUG o.s.b.d.r.Restarter - Immediately restarting application
-2025-12-18 10:14:00 DEBUG o.s.b.d.r.Restarter - Starting application com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication with URLs [file:/C:/Users/ARYAN%20KIRAN/OneDrive/Desktop/Anuj%20Bhaiya%20Course/week4/prod_ready_features_12569a7ca6/prod-ready-features/target/classes/]
+2025-12-18 10:14:00 DEBUG o.s.b.d.r.Restarter - Starting application com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication with URLs [file:/C:/Users/ARYAN%20KIRAN/OneDrive/Desktop/Anuj%20Bhaiya%20Course/week4/prod_ready_features_12569a7ca6/prod-ready-features/target/classes/]
 2025-12-18 10:14:00 DEBUG o.s.b.a.l.ConditionEvaluationReportLogger - 
 
 
@@ -3324,7 +3324,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
+	at com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
@@ -3359,7 +3359,7 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 2025-12-18 10:19:45 INFO  c.c.a.p.p.ProdReadyFeaturesApplication - Starting ProdReadyFeaturesApplication using Java 22.0.2 with PID 11336 (C:\Users\ARYAN KIRAN\OneDrive\Desktop\Anuj Bhaiya Course\week4\prod_ready_features_12569a7ca6\prod-ready-features\target\classes started by ARYAN KIRAN in C:\Users\ARYAN KIRAN\OneDrive\Desktop\Anuj Bhaiya Course\week4\prod_ready_features_12569a7ca6\prod-ready-features)
 2025-12-18 10:19:45 DEBUG c.c.a.p.p.ProdReadyFeaturesApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
 2025-12-18 10:19:45 INFO  c.c.a.p.p.ProdReadyFeaturesApplication - No active profile set, falling back to 1 default profile: "default"
-2025-12-18 10:19:45 DEBUG o.s.b.SpringApplication - Loading source class com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication
+2025-12-18 10:19:45 DEBUG o.s.b.SpringApplication - Loading source class com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication
 2025-12-18 10:19:45 DEBUG o.s.b.d.r.ChangeableUrls - Matching URLs for reloading : [file:/C:/Users/ARYAN%20KIRAN/OneDrive/Desktop/Anuj%20Bhaiya%20Course/week4/prod_ready_features_12569a7ca6/prod-ready-features/target/classes/]
 2025-12-18 10:19:45 DEBUG o.s.b.d.s.DevToolsSettings - Included patterns for restart : []
 2025-12-18 10:19:45 DEBUG o.s.b.d.s.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
@@ -3775,7 +3775,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'prod-ready-features'
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
+	at com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
@@ -3816,7 +3816,7 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
+	at com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
@@ -3826,7 +3826,7 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 2025-12-18 10:19:51 INFO  o.a.c.c.StandardService - Stopping service [Tomcat]
 2025-12-18 10:19:51 DEBUG o.s.b.d.r.Restarter - Creating new Restarter for thread Thread[#1,main,5,main]
 2025-12-18 10:19:51 DEBUG o.s.b.d.r.Restarter - Immediately restarting application
-2025-12-18 10:19:51 DEBUG o.s.b.d.r.Restarter - Starting application com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication with URLs [file:/C:/Users/ARYAN%20KIRAN/OneDrive/Desktop/Anuj%20Bhaiya%20Course/week4/prod_ready_features_12569a7ca6/prod-ready-features/target/classes/]
+2025-12-18 10:19:51 DEBUG o.s.b.d.r.Restarter - Starting application com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication with URLs [file:/C:/Users/ARYAN%20KIRAN/OneDrive/Desktop/Anuj%20Bhaiya%20Course/week4/prod_ready_features_12569a7ca6/prod-ready-features/target/classes/]
 2025-12-18 10:19:51 DEBUG o.s.b.a.l.ConditionEvaluationReportLogger - 
 
 
@@ -4988,7 +4988,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
+	at com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
@@ -5023,7 +5023,7 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 2025-12-18 10:34:16 INFO  c.c.a.p.p.ProdReadyFeaturesApplication - Starting ProdReadyFeaturesApplication using Java 22.0.2 with PID 15232 (C:\Users\ARYAN KIRAN\OneDrive\Desktop\Anuj Bhaiya Course\week4\prod_ready_features_12569a7ca6\prod-ready-features\target\classes started by ARYAN KIRAN in C:\Users\ARYAN KIRAN\OneDrive\Desktop\Anuj Bhaiya Course\week4\prod_ready_features_12569a7ca6\prod-ready-features)
 2025-12-18 10:34:16 DEBUG c.c.a.p.p.ProdReadyFeaturesApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
 2025-12-18 10:34:16 INFO  c.c.a.p.p.ProdReadyFeaturesApplication - No active profile set, falling back to 1 default profile: "default"
-2025-12-18 10:34:16 DEBUG o.s.b.SpringApplication - Loading source class com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication
+2025-12-18 10:34:16 DEBUG o.s.b.SpringApplication - Loading source class com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication
 2025-12-18 10:34:16 DEBUG o.s.b.d.r.ChangeableUrls - Matching URLs for reloading : [file:/C:/Users/ARYAN%20KIRAN/OneDrive/Desktop/Anuj%20Bhaiya%20Course/week4/prod_ready_features_12569a7ca6/prod-ready-features/target/classes/]
 2025-12-18 10:34:16 DEBUG o.s.b.d.s.DevToolsSettings - Included patterns for restart : []
 2025-12-18 10:34:16 DEBUG o.s.b.d.s.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
@@ -5439,7 +5439,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'prod-ready-features'
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
+	at com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
@@ -5480,7 +5480,7 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
+	at com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
@@ -5490,7 +5490,7 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 2025-12-18 10:34:25 INFO  o.a.c.c.StandardService - Stopping service [Tomcat]
 2025-12-18 10:34:25 DEBUG o.s.b.d.r.Restarter - Creating new Restarter for thread Thread[#1,main,5,main]
 2025-12-18 10:34:25 DEBUG o.s.b.d.r.Restarter - Immediately restarting application
-2025-12-18 10:34:25 DEBUG o.s.b.d.r.Restarter - Starting application com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication with URLs [file:/C:/Users/ARYAN%20KIRAN/OneDrive/Desktop/Anuj%20Bhaiya%20Course/week4/prod_ready_features_12569a7ca6/prod-ready-features/target/classes/]
+2025-12-18 10:34:25 DEBUG o.s.b.d.r.Restarter - Starting application com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication with URLs [file:/C:/Users/ARYAN%20KIRAN/OneDrive/Desktop/Anuj%20Bhaiya%20Course/week4/prod_ready_features_12569a7ca6/prod-ready-features/target/classes/]
 2025-12-18 10:34:25 DEBUG o.s.b.a.l.ConditionEvaluationReportLogger - 
 
 
@@ -6652,7 +6652,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
+	at com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
@@ -6687,7 +6687,7 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 2025-12-18 10:38:15 INFO  c.c.a.p.ProdReadyFeaturesApplication - Starting ProdReadyFeaturesApplication using Java 22.0.2 with PID 13064 (C:\Users\ARYAN KIRAN\OneDrive\Desktop\Anuj Bhaiya Course\week4\prod_ready_features_12569a7ca6\prod-ready-features\target\classes started by ARYAN KIRAN in C:\Users\ARYAN KIRAN\OneDrive\Desktop\Anuj Bhaiya Course\week4\prod_ready_features_12569a7ca6\prod-ready-features)
 2025-12-18 10:38:15 DEBUG c.c.a.p.ProdReadyFeaturesApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
 2025-12-18 10:38:15 INFO  c.c.a.p.ProdReadyFeaturesApplication - No active profile set, falling back to 1 default profile: "default"
-2025-12-18 10:38:15 DEBUG o.s.b.SpringApplication - Loading source class com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication
+2025-12-18 10:38:15 DEBUG o.s.b.SpringApplication - Loading source class com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication
 2025-12-18 10:38:16 DEBUG o.s.b.d.r.ChangeableUrls - Matching URLs for reloading : [file:/C:/Users/ARYAN%20KIRAN/OneDrive/Desktop/Anuj%20Bhaiya%20Course/week4/prod_ready_features_12569a7ca6/prod-ready-features/target/classes/]
 2025-12-18 10:38:16 DEBUG o.s.b.d.s.DevToolsSettings - Included patterns for restart : []
 2025-12-18 10:38:16 DEBUG o.s.b.d.s.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
@@ -6852,7 +6852,7 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 	Validation Mode: AUTO
 	Jar files URLs []
 	Managed classes names [
-		com.codingshuttle.anuj.prod_ready_features.entities.PostEntity
+		entities.com.codingshuttle.Aryan.prod_ready_features.PostEntity
 		com.codingshuttle.anuj.prod_ready_features.prod_ready_features.entities.AuditableEntity]
 	Mapping files names []
 	Properties []
@@ -7103,7 +7103,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'prod-ready-features'
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
+	at com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
@@ -7144,7 +7144,7 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
+	at com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
@@ -7154,7 +7154,7 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 2025-12-18 10:38:24 INFO  o.a.c.c.StandardService - Stopping service [Tomcat]
 2025-12-18 10:38:24 DEBUG o.s.b.d.r.Restarter - Creating new Restarter for thread Thread[#1,main,5,main]
 2025-12-18 10:38:24 DEBUG o.s.b.d.r.Restarter - Immediately restarting application
-2025-12-18 10:38:24 DEBUG o.s.b.d.r.Restarter - Starting application com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication with URLs [file:/C:/Users/ARYAN%20KIRAN/OneDrive/Desktop/Anuj%20Bhaiya%20Course/week4/prod_ready_features_12569a7ca6/prod-ready-features/target/classes/]
+2025-12-18 10:38:24 DEBUG o.s.b.d.r.Restarter - Starting application com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication with URLs [file:/C:/Users/ARYAN%20KIRAN/OneDrive/Desktop/Anuj%20Bhaiya%20Course/week4/prod_ready_features_12569a7ca6/prod-ready-features/target/classes/]
 2025-12-18 10:38:24 DEBUG o.s.b.a.l.ConditionEvaluationReportLogger - 
 
 
@@ -8316,7 +8316,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at com.codingshuttle.anuj.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
+	at com.codingshuttle.Aryan.prod_ready_features.ProdReadyFeaturesApplication.main(ProdReadyFeaturesApplication.java:10)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)

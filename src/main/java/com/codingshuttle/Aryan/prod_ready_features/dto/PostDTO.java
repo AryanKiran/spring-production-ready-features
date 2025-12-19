@@ -1,4 +1,4 @@
-package com.codingshuttle.anuj.prod_ready_features.dto;
+package com.codingshuttle.Aryan.prod_ready_features.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

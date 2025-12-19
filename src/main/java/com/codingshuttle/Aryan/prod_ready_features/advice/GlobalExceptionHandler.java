@@ -1,6 +1,6 @@
-package com.codingshuttle.anuj.prod_ready_features.advice;
+package com.codingshuttle.Aryan.prod_ready_features.advice;
 
-import com.codingshuttle.anuj.prod_ready_features.exceptions.ResourceNotFoundException;
+import com.codingshuttle.Aryan.prod_ready_features.exceptions.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
