@@ -4,6 +4,8 @@ import com.codingshuttle.Aryan.prod_ready_features.client.UserClient;
 import com.codingshuttle.Aryan.prod_ready_features.dto.PostDTO;
 import com.codingshuttle.Aryan.prod_ready_features.services.PostService;
 import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -14,7 +16,7 @@ import java.util.List;
 public class PostController {
 
     private final PostService postService;
-
+    Logger log = LoggerFactory.getLogger(PostController.class);
 
     @GetMapping("/restClient/{id}")
     public String getUserDetails(@PathVariable Long id){
@@ -28,6 +30,7 @@ public class PostController {
 
     @GetMapping("/{postId}")
     public PostDTO getPostById(@PathVariable Long postId) {
+        log.trace("Trying to get post by its id {} ",postId);
         return postService.getPostById(postId);
     }
 
